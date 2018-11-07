@@ -1,0 +1,44 @@
+html {
+  margin: auto;
+  font-size: 100%;
+}
+
+#grad {
+  background-image: linear-gradient(#99ccff, #ffff99);
+}
+
+body {
+
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  margin: 3rem;
+}
+
+h1 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 200%;
+}
+h2 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 150%;
+}
+
+#city, #flag, #hill, #ruins  {
+    text-align: center;
+    font-size: 150%;
+    margin: auto;
+    max-width: 900px;
+}
+
+/* Portrait */
+@media screen and (max-width: 700px) {
+  img {
+    width: 100%;
+  }
+  body {
+    margin: 0;
+  }
+  .text {
+    padding: 1rem;
+  }
+}
