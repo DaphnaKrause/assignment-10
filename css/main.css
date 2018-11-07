@@ -1,17 +1,10 @@
-html {
-  margin: auto;
-  font-size: 100%;
-}
-
-#grad {
-  background-image: linear-gradient(#99ccff, #ffff99);
-}
-
 body {
-
+  margin: auto;
+  padding: 2rem;
+  font-size: 100%;
   font-family: 'Poppins', sans-serif;
   color: #000000;
-  margin: 3rem;
+  background-image: linear-gradient(#99ccff, #ffff99);
 }
 
 h1 {
@@ -36,6 +29,7 @@ h2 {
     width: 100%;
   }
   body {
+    padding: 0;
     margin: 0;
   }
   .text {
